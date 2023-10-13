@@ -25,6 +25,8 @@
 		3FF24FEE2AD949CF00918A11 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FED2AD949CF00918A11 /* City.swift */; };
 		3FF24FF02AD949E200918A11 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FEF2AD949E200918A11 /* Day.swift */; };
 		3FF24FF22AD94A0200918A11 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FF12AD94A0200918A11 /* Transaction.swift */; };
+		3FF24FF62AD95F1400918A11 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FF52AD95F1400918A11 /* SectionHeaderView.swift */; };
+		3FF24FF82AD95F3B00918A11 /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FF72AD95F3B00918A11 /* TransactionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		3FF24FED2AD949CF00918A11 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		3FF24FEF2AD949E200918A11 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		3FF24FF12AD94A0200918A11 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3FF24FF52AD95F1400918A11 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		3FF24FF72AD95F3B00918A11 /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				3FF24FD82AD9356C00918A11 /* TransactionsView.swift */,
+				3FF24FF52AD95F1400918A11 /* SectionHeaderView.swift */,
+				3FF24FF72AD95F3B00918A11 /* TransactionRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 				3FF24FE32AD9368F00918A11 /* BudgetVisualizationView.swift in Sources */,
 				3FF24FD22AD92E8A00918A11 /* HomeView.swift in Sources */,
 				3FF24FEE2AD949CF00918A11 /* City.swift in Sources */,
+				3FF24FF82AD95F3B00918A11 /* TransactionRowView.swift in Sources */,
 				3FF24FDC2AD935A600918A11 /* StatsView.swift in Sources */,
 				3FF24FF02AD949E200918A11 /* Day.swift in Sources */,
+				3FF24FF62AD95F1400918A11 /* SectionHeaderView.swift in Sources */,
 				3FF24FD42AD92E9D00918A11 /* SettingsView.swift in Sources */,
 				3FF24FEA2AD9478300918A11 /* User.swift in Sources */,
 				3FF24FC22AD92AE300918A11 /* MainTabView.swift in Sources */,
