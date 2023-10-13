@@ -18,16 +18,14 @@ struct HomeView: View {
                         Spacer()
                         NavigationLink(destination: SummaryView()) {
                             VStack {
-                                Image(systemName: "house")
-                                Text("Summary")
+                                HomeCardView(imageName: "house", title: "Trip Summarys")
 
                             }
                         }
                         Spacer()
                         NavigationLink(destination: UpcomingTripsView()) {
                             VStack {
-                                Image(systemName: "airplane")
-                                Text("Upcoming trips")
+                                HomeCardView(imageName: "airplane", title: "Upcoming trips")
                             }
                         }
                         Spacer()
@@ -37,15 +35,13 @@ struct HomeView: View {
                         Spacer()
                         NavigationLink(destination: BudgetVisualizationView()) {
                             VStack {
-                                Image(systemName: "chart.bar")
-                                Text("Budget visualization")
+                                HomeCardView(imageName: "chart.bar", title: "Budget Visualization")
                             }
                         }
                         Spacer()
                         NavigationLink(destination: RecentTransactionsView()) {
                             VStack {
-                                Image(systemName: "creditcard")
-                                Text("Recent transactions")
+                                HomeCardView(imageName: "creditcard", title: "Recent Transactions")
                             }
                         }
                         Spacer()
@@ -54,8 +50,7 @@ struct HomeView: View {
                         Spacer()
                         NavigationLink(destination: BudgetGoalsView()) {
                             VStack {
-                                Image(systemName: "target")
-                                Text("Budget goals")
+                                HomeCardView(imageName: "target", title: "Budget Goals")
                             }
                         }
                         Spacer()
@@ -63,7 +58,6 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .navigationTitle("Home")
         }
     }
 }
