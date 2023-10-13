@@ -8,17 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */; };
-		3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FC12AD92AE300918A11 /* ContentView.swift */; };
+		3FF24FC22AD92AE300918A11 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FC12AD92AE300918A11 /* MainTabView.swift */; };
 		3FF24FC42AD92AE400918A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24FC32AD92AE400918A11 /* Assets.xcassets */; };
 		3FF24FC72AD92AE400918A11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24FC62AD92AE400918A11 /* Preview Assets.xcassets */; };
+		3FF24FD22AD92E8A00918A11 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FD12AD92E8A00918A11 /* HomeView.swift */; };
+		3FF24FD42AD92E9D00918A11 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FD32AD92E9D00918A11 /* SettingsView.swift */; };
+		3FF24FD92AD9356C00918A11 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FD82AD9356C00918A11 /* TransactionsView.swift */; };
+		3FF24FDC2AD935A600918A11 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FDB2AD935A600918A11 /* StatsView.swift */; };
+		3FF24FDF2AD9360700918A11 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FDE2AD9360700918A11 /* SummaryView.swift */; };
+		3FF24FE12AD9365D00918A11 /* UpcomingTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FE02AD9365D00918A11 /* UpcomingTripsView.swift */; };
+		3FF24FE32AD9368F00918A11 /* BudgetVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FE22AD9368F00918A11 /* BudgetVisualizationView.swift */; };
+		3FF24FE52AD936C500918A11 /* RecentTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FE42AD936C500918A11 /* RecentTransactionsView.swift */; };
+		3FF24FE72AD9371A00918A11 /* BudgetGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FE62AD9371A00918A11 /* BudgetGoalsView.swift */; };
+		3FF24FEA2AD9478300918A11 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FE92AD9478300918A11 /* User.swift */; };
+		3FF24FEC2AD949B400918A11 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FEB2AD949B400918A11 /* Activity.swift */; };
+		3FF24FEE2AD949CF00918A11 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FED2AD949CF00918A11 /* City.swift */; };
+		3FF24FF02AD949E200918A11 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FEF2AD949E200918A11 /* Day.swift */; };
+		3FF24FF22AD94A0200918A11 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FF12AD94A0200918A11 /* Transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FF24FBC2AD92AE300918A11 /* Budgeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgeteerApp.swift; sourceTree = "<group>"; };
-		3FF24FC12AD92AE300918A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3FF24FC12AD92AE300918A11 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		3FF24FC32AD92AE400918A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF24FC62AD92AE400918A11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FF24FD12AD92E8A00918A11 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3FF24FD32AD92E9D00918A11 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3FF24FD82AD9356C00918A11 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		3FF24FDB2AD935A600918A11 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		3FF24FDE2AD9360700918A11 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		3FF24FE02AD9365D00918A11 /* UpcomingTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTripsView.swift; sourceTree = "<group>"; };
+		3FF24FE22AD9368F00918A11 /* BudgetVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetVisualizationView.swift; sourceTree = "<group>"; };
+		3FF24FE42AD936C500918A11 /* RecentTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsView.swift; sourceTree = "<group>"; };
+		3FF24FE62AD9371A00918A11 /* BudgetGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetGoalsView.swift; sourceTree = "<group>"; };
+		3FF24FE92AD9478300918A11 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FF24FEB2AD949B400918A11 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		3FF24FED2AD949CF00918A11 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		3FF24FEF2AD949E200918A11 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		3FF24FF12AD94A0200918A11 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */,
-				3FF24FC12AD92AE300918A11 /* ContentView.swift */,
+				3FF24FE82AD9477700918A11 /* Models */,
+				3FF24FCD2AD92E4200918A11 /* Core */,
 				3FF24FC32AD92AE400918A11 /* Assets.xcassets */,
 				3FF24FC52AD92AE400918A11 /* Preview Content */,
 			);
@@ -65,6 +94,99 @@
 				3FF24FC62AD92AE400918A11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FF24FCD2AD92E4200918A11 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FC12AD92AE300918A11 /* MainTabView.swift */,
+				3FF24FCE2AD92E4E00918A11 /* Screens */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3FF24FCE2AD92E4E00918A11 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FCF2AD92E5600918A11 /* Home */,
+				3FF24FD52AD9352E00918A11 /* Transactions */,
+				3FF24FD62AD9353A00918A11 /* Stats */,
+				3FF24FD02AD92E7500918A11 /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3FF24FCF2AD92E5600918A11 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FDD2AD935FF00918A11 /* Views */,
+				3FF24FD12AD92E8A00918A11 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3FF24FD02AD92E7500918A11 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FD32AD92E9D00918A11 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3FF24FD52AD9352E00918A11 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FD72AD9356200918A11 /* Views */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		3FF24FD62AD9353A00918A11 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FDA2AD9359900918A11 /* Views */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		3FF24FD72AD9356200918A11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FD82AD9356C00918A11 /* TransactionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FF24FDA2AD9359900918A11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FDB2AD935A600918A11 /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FF24FDD2AD935FF00918A11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FDE2AD9360700918A11 /* SummaryView.swift */,
+				3FF24FE02AD9365D00918A11 /* UpcomingTripsView.swift */,
+				3FF24FE22AD9368F00918A11 /* BudgetVisualizationView.swift */,
+				3FF24FE42AD936C500918A11 /* RecentTransactionsView.swift */,
+				3FF24FE62AD9371A00918A11 /* BudgetGoalsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FF24FE82AD9477700918A11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FF24FE92AD9478300918A11 /* User.swift */,
+				3FF24FEF2AD949E200918A11 /* Day.swift */,
+				3FF24FED2AD949CF00918A11 /* City.swift */,
+				3FF24FEB2AD949B400918A11 /* Activity.swift */,
+				3FF24FF12AD94A0200918A11 /* Transaction.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +259,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */,
+				3FF24FF22AD94A0200918A11 /* Transaction.swift in Sources */,
+				3FF24FD92AD9356C00918A11 /* TransactionsView.swift in Sources */,
+				3FF24FDF2AD9360700918A11 /* SummaryView.swift in Sources */,
+				3FF24FE12AD9365D00918A11 /* UpcomingTripsView.swift in Sources */,
+				3FF24FE72AD9371A00918A11 /* BudgetGoalsView.swift in Sources */,
+				3FF24FE32AD9368F00918A11 /* BudgetVisualizationView.swift in Sources */,
+				3FF24FD22AD92E8A00918A11 /* HomeView.swift in Sources */,
+				3FF24FEE2AD949CF00918A11 /* City.swift in Sources */,
+				3FF24FDC2AD935A600918A11 /* StatsView.swift in Sources */,
+				3FF24FF02AD949E200918A11 /* Day.swift in Sources */,
+				3FF24FD42AD92E9D00918A11 /* SettingsView.swift in Sources */,
+				3FF24FEA2AD9478300918A11 /* User.swift in Sources */,
+				3FF24FC22AD92AE300918A11 /* MainTabView.swift in Sources */,
+				3FF24FE52AD936C500918A11 /* RecentTransactionsView.swift in Sources */,
+				3FF24FEC2AD949B400918A11 /* Activity.swift in Sources */,
 				3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
