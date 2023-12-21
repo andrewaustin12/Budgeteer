@@ -1,14 +1,14 @@
 //
-//  BudgeteerApp.swift
-//  Budgeteer
+//  AirBnB_CloneApp.swift
+//  AirBnB_Clone
 //
-//  Created by andrew austin on 10/13/23.
+//  Created by andrew austin on 10/21/23.
 //
 
 import SwiftUI
 
 @main
-struct BudgeteerApp: App {
+struct AirBnB_CloneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
