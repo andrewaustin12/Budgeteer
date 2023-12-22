@@ -18,6 +18,11 @@
 		3F6985D72B34BBA20010E1D4 /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985D62B34BBA20010E1D4 /* Graphs.swift */; };
 		3F6985D92B34BBB80010E1D4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985D82B34BBB80010E1D4 /* Settings.swift */; };
 		3F6985DB2B34BF560010E1D4 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985DA2B34BF560010E1D4 /* View+Extensions.swift */; };
+		3F6985DD2B357FCE0010E1D4 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985DC2B357FCE0010E1D4 /* Date+Extensions.swift */; };
+		3F6985E02B3583AF0010E1D4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985DF2B3583AF0010E1D4 /* CardView.swift */; };
+		3F6985E22B3592F70010E1D4 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */; };
+		3F6985E42B3598F60010E1D4 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985E32B3598F60010E1D4 /* SwipeAction.swift */; };
+		3F6986032B35C2AB0010E1D4 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */; };
 		3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */; };
 		3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FC12AD92AE300918A11 /* ContentView.swift */; };
 		3FF24FC42AD92AE400918A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24FC32AD92AE400918A11 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 		3F6985D62B34BBA20010E1D4 /* Graphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
 		3F6985D82B34BBB80010E1D4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3F6985DA2B34BF560010E1D4 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		3F6985DC2B357FCE0010E1D4 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		3F6985DF2B3583AF0010E1D4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		3F6985E32B3598F60010E1D4 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		3FF24FBC2AD92AE300918A11 /* Budgeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgeteerApp.swift; sourceTree = "<group>"; };
 		3FF24FC12AD92AE300918A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +67,7 @@
 		3F6985C22B34A72F0010E1D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F6985DE2B3583990010E1D4 /* Helpers */,
 				3F6985D12B34BB1B0010E1D4 /* TabViews */,
 				3F6985C42B34A77A0010E1D4 /* IntroScreen.swift */,
 			);
@@ -79,6 +90,7 @@
 			children = (
 				3F6985C72B34A9940010E1D4 /* Constants.swift */,
 				3F6985DA2B34BF560010E1D4 /* View+Extensions.swift */,
+				3F6985DC2B357FCE0010E1D4 /* Date+Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -92,6 +104,17 @@
 				3F6985D82B34BBB80010E1D4 /* Settings.swift */,
 			);
 			path = TabViews;
+			sourceTree = "<group>";
+		};
+		3F6985DE2B3583990010E1D4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F6985DF2B3583AF0010E1D4 /* CardView.swift */,
+				3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */,
+				3F6985E32B3598F60010E1D4 /* SwipeAction.swift */,
+				3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		3FF24FB32AD92AE300918A11 = {
@@ -212,17 +235,22 @@
 			files = (
 				3F6985D32B34BB880010E1D4 /* Search.swift in Sources */,
 				3F6985D02B34B92C0010E1D4 /* TintColor.swift in Sources */,
+				3F6986032B35C2AB0010E1D4 /* DateFilterView.swift in Sources */,
 				3F6985CE2B34B8060010E1D4 /* Transaction.swift in Sources */,
 				3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */,
+				3F6985E02B3583AF0010E1D4 /* CardView.swift in Sources */,
+				3F6985E42B3598F60010E1D4 /* SwipeAction.swift in Sources */,
 				3F6985D52B34BB910010E1D4 /* Recents.swift in Sources */,
 				3F6985C52B34A77A0010E1D4 /* IntroScreen.swift in Sources */,
 				3F6985D92B34BBB80010E1D4 /* Settings.swift in Sources */,
 				3F6985CC2B34B7270010E1D4 /* Catagory.swift in Sources */,
 				3F6985CA2B34AF5F0010E1D4 /* Tab.swift in Sources */,
+				3F6985DD2B357FCE0010E1D4 /* Date+Extensions.swift in Sources */,
 				3F6985DB2B34BF560010E1D4 /* View+Extensions.swift in Sources */,
 				3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */,
 				3F6985D72B34BBA20010E1D4 /* Graphs.swift in Sources */,
 				3F6985C82B34A9940010E1D4 /* Constants.swift in Sources */,
+				3F6985E22B3592F70010E1D4 /* TransactionCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
