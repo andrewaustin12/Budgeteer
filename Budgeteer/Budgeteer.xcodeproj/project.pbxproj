@@ -23,6 +23,7 @@
 		3F6985E22B3592F70010E1D4 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */; };
 		3F6985E42B3598F60010E1D4 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985E32B3598F60010E1D4 /* SwipeAction.swift */; };
 		3F6986032B35C2AB0010E1D4 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */; };
+		3F95D2CB2B35EB3B005CD89A /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95D2CA2B35EB3A005CD89A /* LockView.swift */; };
 		3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */; };
 		3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FC12AD92AE300918A11 /* ContentView.swift */; };
 		3FF24FC42AD92AE400918A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24FC32AD92AE400918A11 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		3F6985E32B3598F60010E1D4 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		3F95D2CA2B35EB3A005CD89A /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		3FF24FBC2AD92AE300918A11 /* Budgeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgeteerApp.swift; sourceTree = "<group>"; };
 		3FF24FC12AD92AE300918A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,8 +100,8 @@
 		3F6985D12B34BB1B0010E1D4 /* TabViews */ = {
 			isa = PBXGroup;
 			children = (
-				3F6985D22B34BB880010E1D4 /* Search.swift */,
 				3F6985D42B34BB910010E1D4 /* Recents.swift */,
+				3F6985D22B34BB880010E1D4 /* Search.swift */,
 				3F6985D62B34BBA20010E1D4 /* Graphs.swift */,
 				3F6985D82B34BBB80010E1D4 /* Settings.swift */,
 			);
@@ -109,6 +111,7 @@
 		3F6985DE2B3583990010E1D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3F95D2CA2B35EB3A005CD89A /* LockView.swift */,
 				3F6985DF2B3583AF0010E1D4 /* CardView.swift */,
 				3F6985E12B3592F70010E1D4 /* TransactionCardView.swift */,
 				3F6985E32B3598F60010E1D4 /* SwipeAction.swift */,
@@ -137,10 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				3F6985C62B34A9800010E1D4 /* Helpers */,
-				3FF24FCD2AD92E4200918A11 /* Core */,
+				3F6985C22B34A72F0010E1D4 /* View */,
+				3F6985C32B34A7360010E1D4 /* Model */,
 				3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */,
 				3FF24FC12AD92AE300918A11 /* ContentView.swift */,
 				3FF24FC32AD92AE400918A11 /* Assets.xcassets */,
+				3FF24FCD2AD92E4200918A11 /* Core */,
 				3FF24FC52AD92AE400918A11 /* Preview Content */,
 			);
 			path = Budgeteer;
@@ -157,8 +162,6 @@
 		3FF24FCD2AD92E4200918A11 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3F6985C32B34A7360010E1D4 /* Model */,
-				3F6985C22B34A72F0010E1D4 /* View */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				3F6985CA2B34AF5F0010E1D4 /* Tab.swift in Sources */,
 				3F6985DD2B357FCE0010E1D4 /* Date+Extensions.swift in Sources */,
 				3F6985DB2B34BF560010E1D4 /* View+Extensions.swift in Sources */,
+				3F95D2CB2B35EB3B005CD89A /* LockView.swift in Sources */,
 				3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */,
 				3F6985D72B34BBA20010E1D4 /* Graphs.swift in Sources */,
 				3F6985C82B34A9940010E1D4 /* Constants.swift in Sources */,
@@ -387,6 +391,7 @@
 				DEVELOPMENT_TEAM = BV862H23C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "The app requires you to enable Face ID to unlock the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -416,6 +421,7 @@
 				DEVELOPMENT_TEAM = BV862H23C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "The app requires you to enable Face ID to unlock the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
