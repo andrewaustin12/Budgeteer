@@ -24,6 +24,7 @@
 		3F6985E42B3598F60010E1D4 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6985E32B3598F60010E1D4 /* SwipeAction.swift */; };
 		3F6986032B35C2AB0010E1D4 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */; };
 		3F95D2CB2B35EB3B005CD89A /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95D2CA2B35EB3A005CD89A /* LockView.swift */; };
+		3F95D2CD2B35F66C005CD89A /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F95D2CC2B35F66C005CD89A /* NewExpenseView.swift */; };
 		3FF24FC02AD92AE300918A11 /* BudgeteerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */; };
 		3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF24FC12AD92AE300918A11 /* ContentView.swift */; };
 		3FF24FC42AD92AE400918A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF24FC32AD92AE400918A11 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		3F6985E32B3598F60010E1D4 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		3F6986022B35C2AB0010E1D4 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		3F95D2CA2B35EB3A005CD89A /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		3F95D2CC2B35F66C005CD89A /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 		3FF24FBC2AD92AE300918A11 /* Budgeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF24FBF2AD92AE300918A11 /* BudgeteerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgeteerApp.swift; sourceTree = "<group>"; };
 		3FF24FC12AD92AE300918A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				3F6985DE2B3583990010E1D4 /* Helpers */,
 				3F6985D12B34BB1B0010E1D4 /* TabViews */,
 				3F6985C42B34A77A0010E1D4 /* IntroScreen.swift */,
+				3F95D2CC2B35F66C005CD89A /* NewExpenseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				3F6986032B35C2AB0010E1D4 /* DateFilterView.swift in Sources */,
 				3F6985CE2B34B8060010E1D4 /* Transaction.swift in Sources */,
 				3FF24FC22AD92AE300918A11 /* ContentView.swift in Sources */,
+				3F95D2CD2B35F66C005CD89A /* NewExpenseView.swift in Sources */,
 				3F6985E02B3583AF0010E1D4 /* CardView.swift in Sources */,
 				3F6985E42B3598F60010E1D4 /* SwipeAction.swift in Sources */,
 				3F6985D52B34BB910010E1D4 /* Recents.swift in Sources */,
